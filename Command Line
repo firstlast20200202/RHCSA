@@ -4,7 +4,7 @@ $ echo                       //prints a specific message
 $ MYVAR="hello world"        //declare a variable
 $ echo $MYVAR                //prints the value of MYVAR    
 $ touch test                 //creates an empty text file called 'test'
-$ wc                         //ginves information about a text file such as line count, word count etc.
+$ wc                         //ginves information about a text file such as line count, word count etc. eg. wc -l counts how many lines
 $ alias                      //list alias
 $ unalias ll                 //$ alias ll='ls -l'
 note: and variables and alias would disappear when system reboots, add it into $ vim .bashrc in home directory permanently
