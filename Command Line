@@ -14,7 +14,7 @@ usr/share/doc
 $ cd usr/share/doc/bash
 
 $ man ls
-keyboard: up and down for line up and line down, space and b for page up and page down
+keyboard: up and down for line up and line down, space and b for page up and page down, /<key-word> for searching a key word
 
 
 
