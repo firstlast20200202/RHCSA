@@ -13,6 +13,13 @@ eg.
 $ echo "Today is $(date)" > /home/student/today.txt
 $ touch /home/student/file_$(date +%F)
 
+
+3 ways to get help in Linux:
+1. man <command>
+2. command --help
+3. info command
+
+
 man doc
 usr/share/doc
 $ cd usr/share/doc/bash
