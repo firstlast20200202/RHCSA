@@ -9,7 +9,8 @@ $ alias                      //list alias
 $ unalias ll                 //$ alias ll='ls -l'
 note: and variables and alias would disappear when system reboots, add it into $ vim .bashrc in home directory permanently
 
-
+man doc
+usr/share/doc
 
 
 
