@@ -6,7 +6,7 @@ $ touch test                 //creates an empty text file called 'test'
 $ wc                         //ginves information about a text file such as line count, word count etc.
 $ alias                      //list alias
 $ unalias ll                 //$ alias ll='ls -l'
-note: alias would disappear when system reboots, add it into $ vim .bashrc
+note: alias would disappear when system reboots, add it into $ vim .bashrc perminently
 
 
 
