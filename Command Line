@@ -20,8 +20,7 @@ $ touch /home/student/file_$(date +%F)
 3. info command
 
 
-man doc
-usr/share/doc
+in the exam, man doc and usr/share/doc are the two important doc locations
 $ cd usr/share/doc/bash
 
 $ man ls
