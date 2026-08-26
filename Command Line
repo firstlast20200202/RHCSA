@@ -19,7 +19,7 @@ up and down for line up and line down,
 space and b for page up and page down, 
 /<key-word> for searching a key word
 n jump to next key word, shift+n jump to last key word
-
+g jump to top  of the man page, shift+g jump to bottom of the man page
 
 
 
