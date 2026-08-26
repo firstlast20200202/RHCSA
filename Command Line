@@ -13,6 +13,7 @@ man doc
 usr/share/doc
 $ cd usr/share/doc/bash
 
+$ man ls
 
 
 
