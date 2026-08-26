@@ -15,7 +15,7 @@ $ touch /home/student/file_$(date +%F)
 
 
 3 ways to get help in Linux:
-1. man <command>
+1. man <command>            //man means manual here
 2. command --help
 3. info command
 
