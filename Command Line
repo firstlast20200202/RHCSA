@@ -21,7 +21,7 @@ $ touch /home/student/file_$(date +%F)
 
 
 in the exam, man doc and usr/share/doc are the two important doc locations
-$ cd usr/share/doc/bash
+
 
 $ man ls
 keyboard: 
