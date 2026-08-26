@@ -4,8 +4,9 @@ $ echo                       //prints a specific message
 $ echo $MYVAR                //prints the value of MYVAR
 $ touch test                 //creates an empty text file called 'test'
 $ wc                         //ginves information about a text file such as line count, word count etc.
-
-
+$ alias                      //list alias
+$ unalias ll                 //$ alias ll='ls -l'
+note: alias would disappear when system reboots
 
 
 
