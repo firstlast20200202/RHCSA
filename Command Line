@@ -11,7 +11,7 @@ note: and variables and alias would disappear when system reboots, add it into $
 
 man doc
 usr/share/doc
-
+$ cd usr/share/doc/bash
 
 
 
