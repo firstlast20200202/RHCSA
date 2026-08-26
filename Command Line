@@ -18,11 +18,9 @@ $ touch /home/student/file_$(date +%F)
 1. man <command>            //man means manual here
 2. command --help
 3. info command
+note: in the exam, man doc and usr/share/doc are the two important doc locations
 
-
-in the exam, man doc and usr/share/doc are the two important doc locations
-
-
+1. man <command>
 $ man ls
 keyboard: 
 up and down for line up and line down 
