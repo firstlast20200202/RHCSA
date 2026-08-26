@@ -7,7 +7,7 @@ $ touch test                 //creates an empty text file called 'test'
 $ wc                         //gives information about a text file such as line count, word count etc. eg. wc -l counts how many lines
 $ alias                      //list alias
 $ unalias ll                 //$ alias ll='ls -l'
-note: and variables and alias would disappear when system reboots, add it into $ vim .bashrc in home directory permanently
+note: variables and alias would disappear when system reboots, add it into $ vim .bashrc in home directory permanently
 !! repeats the previous command. This is especially useful with sudo !! when you forget to run a command with elevated privileges.
 eg. 
 $ echo "Today is $(date)" > /home/student/today.txt
