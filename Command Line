@@ -3,12 +3,14 @@ $ tail                       //shows last 10 lines of a file, especially useful 
 $ echo                       //prints a specific message
 $ MYVAR="hello world"        //declare a variable
 $ echo $MYVAR                //prints the value of MYVAR    
-eg. $ echo "Today is $(date)" > /home/student/today.txt
 $ touch test                 //creates an empty text file called 'test'
 $ wc                         //gives information about a text file such as line count, word count etc. eg. wc -l counts how many lines
 $ alias                      //list alias
 $ unalias ll                 //$ alias ll='ls -l'
 note: and variables and alias would disappear when system reboots, add it into $ vim .bashrc in home directory permanently
+eg. 
+$ echo "Today is $(date)" > /home/student/today.txt
+$ touch /home/student/file_$(date +%F)
 
 man doc
 usr/share/doc
