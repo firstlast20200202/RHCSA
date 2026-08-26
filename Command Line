@@ -1,6 +1,7 @@
 $ pwd                        //shows where you are within the file-systems
 $ tail                       //shows last 10 lines of a file, especially useful for looking up in logs
 $ echo                       //prints a specific message
+$ echo $MYVAR                //prints the value of MYVAR
 $ touch test                 //creates an empty text file called 'test'
 $ wc                         //ginves information about a text file such as line count, word count etc.
 
