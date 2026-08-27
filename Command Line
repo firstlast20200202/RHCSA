@@ -20,15 +20,20 @@ $ touch /home/student/file_$(date +%F)
 3. info command
 note: in the exam, man doc and usr/share/doc are the two important doc locations
 
-1. man <command>
+1. how to use man <command>
+eg.
 $ man ls
 keyboard: 
 up and down for line up and line down 
 space and b for page up and page down 
-/<key-word> for searching a key word
-n jump to next key word, shift+n jump to last key word
+/<key-word> for searching a key word; n jump to next key word, shift+n jump to last key word
 g jump to top of the man page, shift+g jump to bottom of the man page
 q for quit the man page
+
+2. how to user command --help
+first update man database: $ sudo mandb
+second search a key word, eg. user: $ man -k user
+
 
 
 
