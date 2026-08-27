@@ -6,3 +6,10 @@ root directory    /
 /usr                       //user applications and system resources
 /opt                       //stands for Optional Application Directory, third party applications store their files here
 /boot                      //boot loader files or GRUB2 in Red Hat Enterprise Linux
+/root                      //root user's home directory
+/home                      //regular users' home directories
+/mnt                       //temporary mounted file systems
+/srv                       //service data directories
+/var                       //variable runtime data which can be modified while the system is running such as logs
+/tmp                       
+/dev                       //device files for hardware access
