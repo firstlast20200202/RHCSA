@@ -9,6 +9,7 @@ $ alias                      //list alias
 $ unalias ll                 //$ alias ll='ls -l'
 $ ls -la /home               //display the contents of the directory including hidden files in long format, -l long listing format, 
                              //-a=all shows hidden files/directories, whose names start with .
+$ date +%Y                   //print current year
 note: variables and alias would disappear when system reboots, add it into $ vim .bashrc in home directory permanently
 !! repeats the previous command. This is especially useful with sudo !! when you forget to run a command with elevated privileges.
 eg. 
