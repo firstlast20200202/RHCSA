@@ -19,7 +19,7 @@ $ touch /home/student/file_$(date +%F)
 3 ways to get help in Linux:
 1. man <command>            //man means manual here
 2. command --help
-3. info command
+3. info command             //Linux also provides another documentation system called info
 note: in the exam, man doc and usr/share/doc are the two important doc locations
 
 1. how to use man <command>
@@ -40,6 +40,13 @@ $ man 1 passwd        //look up 'passwd' in section 1
 $ man 5 passwd        //look up 'passwd' in section 5
 
 Linux documentation location: /usr/share/doc/
+
+3. info command
+eg.
+$ info date           //inside of the doc, type 's year' to search key word 'year'
+
+
+
 
 
 
