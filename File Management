@@ -1,1 +1,8 @@
+root directory    /
+/bin                       //essential user commands
+/sbin                      //system admin commands
+/lib                       //shared libraries and Kernel modules
+/etc                       //system configuration files
+/usr                       //user applications and system resources
+/opt                       //stands for Optional Application Directory, third party applications store their files here
 
