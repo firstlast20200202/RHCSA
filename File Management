@@ -5,4 +5,4 @@ root directory    /
 /etc                       //system configuration files
 /usr                       //user applications and system resources
 /opt                       //stands for Optional Application Directory, third party applications store their files here
-
+/boot                      //boot loader files or GRUB2 in Red Hat Enterprise Linux
