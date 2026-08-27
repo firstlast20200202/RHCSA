@@ -37,6 +37,9 @@ note: there would be scenarios that one item correspondences to multiple man ent
 $ man 1 passwd        //look up 'passwd' in section 1
 $ man 5 passwd        //look up 'passwd' in section 5
 
+Linux documentation location: /usr/share/doc
+
+
 
 ctrl+alt+F2: get into virtual terminal after boots
 
