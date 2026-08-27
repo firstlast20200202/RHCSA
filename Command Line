@@ -33,8 +33,9 @@ q for quit the man page
 2. how to user command --help
 first update man database: $ sudo mandb
 second search a key word, eg. user: $ man -k user
-
-
+note: there would be scenarios that one item correspondences to multiple man entries, eg. passwd
+$ man 1 passwd        //look up 'passwd' in section 1
+$ man 5 passwd        //look up 'passwd' in section 5
 
 
 ctrl+alt+F2: get into virtual terminal after boots
