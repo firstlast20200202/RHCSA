@@ -13,3 +13,4 @@ root directory    /
 /var                       //variable runtime data which can be modified while the system is running such as logs
 /tmp                       
 /dev                       //device files for hardware access
+/proc                       //virtual files showing kernel state
