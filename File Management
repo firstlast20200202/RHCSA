@@ -1,3 +1,4 @@
+structure:
 root directory    /
 /bin                       //essential user commands
 /sbin                      //system admin commands
@@ -13,4 +14,8 @@ root directory    /
 /var                       //variable runtime data which can be modified while the system is running such as logs
 /tmp                       
 /dev                       //device files for hardware access
-/proc                       //virtual files showing kernel state
+/proc                      //virtual files showing kernel state
+
+
+commands:
+$ ls *x*                   //list files which names or extensions have character 'x' 
