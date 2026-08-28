@@ -21,6 +21,8 @@ commands:
 $ ls *x*                   //list files which names or extensions have character 'x' 
 $ ls file?                 //list files which names have 5 characters with 'file' at the start
 $ ls ????                  //list files which names have 4 characters
+$ ls [a-z]*                //list files which names start with a character
+$ ls [!a]*                 //list files which names dont start with 'a'
 $ ls *.{log,txt}           //list files which extension is .log or .txt
 $ ls .*                    //list hidden files
 
