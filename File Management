@@ -49,6 +49,7 @@ $ ln file1.txt hard_link_file1          //create a hard link
 $ ls -i                                 //show the inode
 17656493   file1.txt      17656493   hard_link_file1        //output: both the file name and the hard link point to the same inode    
 symbolic links: shortcut
+& ln -s file2.txt symbolic_link_file2   //create a symbolic link
 
 
 
