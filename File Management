@@ -27,6 +27,6 @@ $ ls *.{log,txt}           //list files which extension is .log or .txt
 $ ls .*                    //list hidden files
 $ tail                     //displays last 10 lines of a file, -n will set the number of lines displayed
 $ head                     //displays first 10 lines of a file, -n will set the number of lines displayed
-
+$ more                     //displays file contents, one page at a time
 
 
