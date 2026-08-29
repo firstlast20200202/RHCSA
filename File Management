@@ -28,5 +28,5 @@ $ ls .*                    //list hidden files
 $ tail                     //displays last 10 lines of a file, -n will set the number of lines displayed
 $ head                     //displays first 10 lines of a file, -n will set the number of lines displayed
 $ more                     //displays file contents, one page at a time
-
+$ mkdir -p abc/def         //makes a directory abc which has another directory def inside
 
