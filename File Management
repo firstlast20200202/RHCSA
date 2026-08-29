@@ -45,12 +45,14 @@ file data
 the inode is a database that describes the files or directory attributes, such as metadata and the physicacl location on the hard drive.
 links:
 hard links: a synced carbon copy of a file that refers directly to the inode of a file, it points to the same storage space or to the same inode where the content is present.
+            it's the same file in different locations, it does modify the other file if it's updated.
 $ ln file1.txt hard_link_file1          //create a hard link
 $ ls -i                                 //show the inode
 17656493   file1.txt      17656493   hard_link_file1        //output: both the file name and the hard link point to the same inode    
 symbolic links: shortcut
 & ln -s file2.txt symbolic_link_file2   //create a symbolic link
-
+note: we cant create a hard link to a directory, but we can create a symbolic link to it, because a hard link needs to point to an inode, a directory is just used for structure in Linux,
+      it doesnt hold contents so no inode is associated with it. However, a symbolic link can refer to either a directory or a file.
 
 
 
