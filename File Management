@@ -35,8 +35,29 @@ $ cp -r abc/ xyz           //copy abc directory recursively (including all direc
 $ mv file1.txt file2.txt   //rename file1 to file2
 
 
-Links:
-hard links:
-symbolic links:
+
+file structure:
+filename
+   ↓
+ inode
+   ↓
+file data
+the inode is a database that describes the files or directory attributes, such as metadata and the physicacl location on the hard drive.
+links:
+hard links: a synced carbon copy of a file that refers directly to the inode of a file, it points to the same storage space or to the same inode where the content is present.
+$ ln file1.txt hard_link_file1          //create a hard link
+$ ls -i                                 //show the inode
+symbolic links: shortcut
+
+
+
+
+
+
+
+
+
+
+
 
 
