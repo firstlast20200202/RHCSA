@@ -30,6 +30,9 @@ $ head                     //displays first 10 lines of a file, -n will set the 
 $ more                     //displays file contents, one page at a time
 $ mkdir -p abc/def         //makes a directory abc which has another directory def inside
 $ tree                     //shows the directory structure in the current directory
+$ cp file1.txt abc/file2.txt          //copy file1 to abc directory and name it as file2
+$ cp -r abc/ xyz           //copy abc directory recursively (including all directories and contents inside) to directory xyz
+
 
 
 
