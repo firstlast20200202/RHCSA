@@ -35,6 +35,8 @@ $ cp -r abc/ xyz           //copy abc directory recursively (including all direc
 $ mv file1.txt file2.txt   //rename file1 to file2
 
 
-
+Links:
+hard links:
+symbolic links:
 
 
