@@ -56,7 +56,7 @@ note: we cant create a hard link to a directory, but we can create a symbolic li
 
 
 
-
+archive, compress using TAR
 
 
 
