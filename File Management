@@ -88,6 +88,7 @@ $ find / -type f                                //search for files
 $ find / -type l                                //search for links
 $ find / -size +100M                            //higher than 100M
 $ find / -size 100M                             //AROUND 100M
+$ find / -size +100M -size -200M
 
 
 
