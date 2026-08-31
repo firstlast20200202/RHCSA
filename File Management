@@ -64,8 +64,9 @@ $ tar -xvf /abc/def/archive.tar                 //extract contents in the curren
 $ tar -xvf /abc/def/archive.tar -C /xyz/        //extract contents to a different directory
 
 $ tar -cvzf /abc/def/archive.tar.gz files       //create a tar archive; -c compression, -z ends with the ending .gz
-$ tar -cvjf /abc/def/archive.tar.bz2 files       //create a tar archive; -j ends with the ending .bz2
-
+$ tar -cvjf /abc/def/archive.tar.bz2 files      //create a tar archive; -j ends with the ending .bz2
+$ tar -xvzf /abc/def/archive.tar.gz             //-x for extraction
+$ tar -xvjf /abc/def/archive.tar.bz2            //-x for extraction
 
 
 
