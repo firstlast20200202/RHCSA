@@ -68,7 +68,10 @@ $ tar -cvjf /abc/def/archive.tar.bz2 files      //create a tar archive; -j ends 
 $ tar -xvzf /abc/def/archive.tar.gz             //-x for extraction
 $ tar -xvjf /abc/def/archive.tar.bz2 -C xyz/    //specify where to extract
 
-
+$ gzip archive.tar
+$ gzip -d archive.tar.gz                        //decompress
+$ bzip2 archive.tar
+$ bzip2 -d archive.tar.bz2
 
 
 
