@@ -59,7 +59,7 @@ note: we cant create a hard link to a directory, but we can create a symbolic li
 archive, compress using TAR:
 $ tar -options archive_file files               //archive multiple files to archive_file
 $ tar -cvf file=/abc/def/archive.tar file1      //eg.
-$ tar -tvf /abc/def/archive.tar                 //list the contents of archive.tar
+$ tar -tvf /abc/def/archive.tar                 //list the contents of archive.tar, -t is to view contents
 $ tar -xvf /abc/def/archive.tar                 //extract cotemts in the current directory
 $ tar -xvf /abc/def/archive.tar -C /xyz/        //extract cotemts to a different directory
 
