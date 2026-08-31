@@ -76,5 +76,5 @@ $ bzip2 -d archive.tar.bz2
 
 
 Finding and locating files:
-find is for precision and real-time accuracy
+find is for precision and real-time accuracy, search entire disk
 locate is for speed, search pre-built database
