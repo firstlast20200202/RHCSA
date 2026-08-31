@@ -1,1 +1,15 @@
+u                                       //undo last operation
+yy                                      //copy a line
+p                                       //paste a line
+:w                                      //save changes to a file
+:q                                      //quit without saving
+:wq                                     //save and quit
+:q!                                     //force quit without saving 
+:o<file>                                //open specified file
+:/<word>                                //search top-down for the word
+
+
+
+
+
 
