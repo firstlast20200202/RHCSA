@@ -83,3 +83,11 @@ $ locate -i FiLe1                               //-i: case-insensitive search
 
 $ find / -name pass*
 $ find / -iname PasSwD
+$ find / -type d                                //search for directories
+$ find / -type f                                //search for files
+$ find / -type l                                //search for links
+
+
+
+
+
