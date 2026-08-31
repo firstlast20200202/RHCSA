@@ -81,6 +81,7 @@ locate is for speed, search pre-built database which gets refreshed upon reboot 
 $ locate file1                                  //locate the file in the DB, case sensitive
 $ locate -i FiLe1                               //-i: case-insensitive search
 
+$ find . -name file1                            //look for file1 in the current directory
 $ find / -name pass*
 $ find / -iname PasSwD
 $ find / -type d                                //search for directories
