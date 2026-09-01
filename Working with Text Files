@@ -8,7 +8,7 @@ x                                       //delete one character in normal mode
 :wq                                     //save and quit
 :q!                                     //force quit without saving 
 :o<file>                                //open specified file
-:/<word>                                //search top-down for the word
+/<word>                                 //search for the word, n browse from top to bottom, N from bottom to top
 i                                       //edit mode
 v                                       //visual mode: can select some contents with mouse and delete with D key
 ctrl+v                                  //visual block mode
