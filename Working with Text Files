@@ -2,6 +2,7 @@ u                                       //undo last operation
 yy                                      //copy a line, y=yank, yank means copy
 p                                       //paste a line
 dd                                      //delete the entire line in normal mode
+x                                       //delete one character in normal mode
 :w                                      //save changes to a file
 :q                                      //quit without saving
 :wq                                     //save and quit
