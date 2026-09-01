@@ -12,6 +12,7 @@ x                                       //delete one character in normal mode
 i                                       //edit mode
 v                                       //visual mode: can select some contents with mouse and delete with D key
 ctrl+v                                  //visual block mode
+o                                       //in normal mode, open a new line below the current line and enter insert mode
 $ vimtutor                              //get help
 
 
