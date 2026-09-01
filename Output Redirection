@@ -3,10 +3,15 @@ Human
  ↓
 Terminal
  ↓
-Bash (Shell)
+Bash (one type of Shell; shell: command interpreter)
  ↓
 Linux
  ↓
 Execute commands
 
+A Terminal is a window/interface that you use to interact with the system.
+Bash is a Shell program that runs inside the Terminal, Bash parses commands and tells the sysytem to execute them.
 
+
+$ echo "hello" > abc.log          //if abc.log doesnt exist, it creates this file; if abc.log exists, it overwrites the file
+$ echo "hello" >> abc.log         //add more contents into the bottom of the file
