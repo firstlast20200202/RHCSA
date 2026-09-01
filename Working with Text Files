@@ -1,5 +1,5 @@
 u                                       //undo last operation
-yy                                      //copy a line
+yy                                      //copy a line, y=yank, yank means copy
 p                                       //paste a line
 :w                                      //save changes to a file
 :q                                      //quit without saving
