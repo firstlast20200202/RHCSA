@@ -10,9 +10,12 @@ x                                       //delete one character in normal mode
 :o<file>                                //open specified file
 /<word>                                 //search for the word, n browse from top to bottom, N from bottom to top
 i                                       //edit mode
-v                                       //visual mode: can select some contents with mouse and delete with D key
-ctrl+v                                  //visual block mode
 o                                       //in normal mode, open a new line below the current line and enter insert mode
+visual mode:
+v                                       //visual mode: can select some contents with mouse and delete with D key
+d                                       //delete selected texts
+y                                       //yanks selected texts
+ctrl+v                                  //visual block mode
 $ vimtutor                              //get help
 
 
