@@ -7,7 +7,8 @@ p                                       //paste a line
 :q!                                     //force quit without saving 
 :o<file>                                //open specified file
 :/<word>                                //search top-down for the word
-
+i                                       //edit mode
+v                                       //visual mode
 
 
 
