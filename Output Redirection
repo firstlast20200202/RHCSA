@@ -41,5 +41,6 @@ $ cat file2
 hello
 hello
 
-
+Search for users that use bash as their login shell, display the results on screen, and save them to a file called bash_users.txt using pipes and tee:
+$ grep bash /etc/passwd | tee bash_users.txt
 
