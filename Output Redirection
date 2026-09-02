@@ -34,10 +34,12 @@ $ cat /etc/passwd | grep student                          //output the lines whi
 $ cat /etc/passwd | grep student | wc                     //output number of lines, number of words and number of characters
 1    1    52
 
-$ echo "hello" | tee file2                                //output to terminal, and a copy to file2
+$ echo "hello" | tee file2                                //output to terminal, and a copy to file2 (overwrites file2)
 hello                                                     //output
-
-
+$ echo "hello" | tee -a file2                             //output to terminal, and append to file2
+$ cat file2
+hello
+hello
 
 
 
