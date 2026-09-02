@@ -9,7 +9,7 @@ Linux
  ↓
 Execute commands
 
-A Terminal is a window/interface that you use to interact with the system.
+A Terminal is a window/interface that you use to interact with the system; default of output is to terminal, and we can redirect to files.
 Bash is a Shell program that runs inside the Terminal, Bash parses commands and tells the sysytem to execute them.
 
 
