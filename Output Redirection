@@ -29,3 +29,14 @@ $ ls file1 &> error_and_output                            /redirect both standar
 $ ls file1 > output.txt 2> error_and_output               //output standard output and error into different files
 
 $ ls file1 2> /dev/null                                   //throw in the bin
+
+$ cat /etc/passwd | grep student                          //output the lines which contain user student
+$ cat /etc/passwd | grep student | wc                     //output number of lines, number of words and number of characters
+
+
+
+
+
+
+
+
