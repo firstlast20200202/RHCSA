@@ -14,4 +14,18 @@ Bash is a Shell program that runs inside the Terminal, Bash parses commands and 
 
 
 $ echo "hello" > abc.log          //if abc.log doesnt exist, it creates this file; if abc.log exists, it overwrites the file
-$ echo "hello" >> abc.log         //add more contents into the bottom of the file
+$ echo "hello" >> abc.log         //add more contents to the bottom of the file
+
+$ ls file1         
+ls: cannot access 'file1': No such file or directory      //output
+$ ls file1 2> error                                       //write the error message into the error file, overwrite it
+$ cat error
+ls: cannot access 'file1': No such file or directory      //output
+$ ls file1 2>> error                                      //add more contents to the bottom of the file
+ls: cannot access 'file1': No such file or directory
+ls: cannot access 'file1': No such file or directory      //output
+
+
+
+
+
