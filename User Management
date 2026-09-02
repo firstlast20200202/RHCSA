@@ -1,5 +1,7 @@
 user information is stored in /etc/passwd
 password information is stored in /etc/shadow
 group information is stored in /etc/group
+/etc/login.defs provides default configuration information when creating or editing users or groups
+
 
 
