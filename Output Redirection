@@ -26,6 +26,6 @@ ls: cannot access 'file1': No such file or directory
 ls: cannot access 'file1': No such file or directory      //output
 
 $ ls file1 &> error_and_output                            /redirect both standard output and standard error, the file error_and_output is newly created here                                  
-
+$ ls file1 > output.txt 2> error_and_output               //output standard output and error into different files
 
 
