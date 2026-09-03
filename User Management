@@ -22,7 +22,7 @@ $ su - alice                                        //switch to user alice
 $ sudo useradd test1
 $ id test1
 uid=1005(test1) gid=1005(test1) groups=1006(test1)  //output: test1 has been created successfully
-
+$ sudo -l                                           //shows up all the commands that user can run and the last run command
 
 
 
