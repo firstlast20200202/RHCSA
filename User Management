@@ -5,6 +5,6 @@ when creating or editing users or groups, /etc/login.defs provides default confi
 
 
 SuperUser access:
-/etc/sudoers
+sudo permissions are defined in /etc/sudoers
 
 
