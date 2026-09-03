@@ -7,9 +7,11 @@ when creating or editing users or groups, /etc/login.defs provides default confi
 SuperUser access:
 sudo permissions are defined in /etc/sudoers or /etc/sudoers.d/*
 in the file:
-username ALL=(ALL) NOPASSWD:ALL
-%groupname ALL=(ALL) ALL
-username ALL=(ALL) ALL, !/sbin/useradd
+username ALL=(ALL) NOPASSWD:ALL                      //this user can run all commands using sudo without a password prompt
+%groupname ALL=(ALL) ALL                             //this group can run all commands using sudo
+username ALL=(ALL) ALL, !/sbin/useradd               //all commands except "useradd" can be run using sudo
+
+
 
 
 
