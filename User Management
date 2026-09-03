@@ -10,7 +10,7 @@ in the file:
 username ALL=(ALL) NOPASSWD:ALL                      //this user can run all commands using sudo without a password prompt
 %groupname ALL=(ALL) ALL                             //this group can run all commands using sudo
 username ALL=(ALL) ALL, !/sbin/useradd               //this user can run all commands using sudo except "useradd"; 2nd field: hosts, 3rd field: commands, 4th field: commands excepted
-
+$ visudo -f /etc/sudoers.d/file1                     //if file1 is not existing, -f is creating it; files in /etc/sudoers.d/ are read only, that's why use visudo instead of vi to edit them
 
 
 
