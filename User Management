@@ -37,6 +37,8 @@ $ cat /etc/group                                     //verify
 
 
 
+passwords management:
+default setting for newly created accounts are confgiured in /etc/login.defs
 
 
 
