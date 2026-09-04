@@ -33,4 +33,13 @@ $ usermod -g group4 user1                            //-g replaces primary group
 
 $ groupmod -n newname oldname                        //-n change the group name
 $ groupmod -g 20000 groupname                        //-g change group ID                 
+$ cat /etc/group                                     //verify
+
+
+
+
+
+
+
+
 
