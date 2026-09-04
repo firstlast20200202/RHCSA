@@ -26,4 +26,5 @@ $ sudo -l                                           //shows up all the commands 
 
 
 a user can belong to different groups, one would be the primary group, other groups are called supplementary groups
+$ usermod -G developers,admins groupuser1            //-G replaces previous supplementary groups that person is in 
 
