@@ -31,6 +31,6 @@ $ usermod -aG group3 user1                           //-aG adds groups user1 int
 $ id user1                                           //verify
 $ usermod -g group4 user1                            //-g replaces primary group
 
-
-
+$ groupmod -n newname oldname                        //-n change the group name
+$ groupmod -g 20000 groupname                        //-g change group ID                 
 
