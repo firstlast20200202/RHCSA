@@ -40,6 +40,23 @@ $ cat /etc/group                                     //verify
 passwords management:
 for newly created accounts, default setting is confgiured in /etc/login.defs
 for existing accounts, use 'chage' command to adjust password expiration, enforce change intervals and control account aging
+$ Chage user                                         //change password expiration setting                                    
+$ Chage-h                                            //--help
+$ Chage -l user                                      //list password information 
+$ Chage -d 0 user                                    //change password upon first login for the user
+$ Chage -E 2027-01-15 user                           //set an expiry date for the user
+$ Passwd user                                        //change password for the user
+$ passwd                                             //change password for ourselves
+
+
+
+
+
+
+
+
+
+
 
 
 
