@@ -38,7 +38,7 @@ $ cat /etc/group                                     //verify
 
 
 passwords management:
-default setting for newly created accounts are confgiured in /etc/login.defs
+for newly created accounts, default setting is confgiured in /etc/login.defs
 for existing accounts, use 'chage' command to adjust password expiration, enforce change intervals and control account aging
 
 
