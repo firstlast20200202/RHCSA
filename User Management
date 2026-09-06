@@ -49,7 +49,7 @@ $ passwd user                                        //change password for the u
 $ passwd                                             //change password for current user
 $ chage -M 30 user                                   //change password policy of the user, -M: maximum, make the expiration of the password 30 days
 $ chage -m 7 user                                    //wait 7 days before changing the password again
-
+$ chage -W 5 user                                    //warn the user 5 days before the expiration
 
 
 
