@@ -46,7 +46,7 @@ $ Chage -l user                                      //list password information
 $ Chage -d 0 user                                    //change password upon first login for the user, -d 0 sets the last password change date to 0
 $ Chage -E 2027-01-15 user                           //set an expiry date for the user
 $ Passwd user                                        //change password for the user
-$ passwd                                             //change password for myself
+$ passwd                                             //change password for current user
 
 
 
