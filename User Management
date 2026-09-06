@@ -4,7 +4,8 @@ group information is stored in /etc/group
 when creating or editing users or groups, /etc/login.defs provides default configuration information such as UID or password policy 
 When a user is created with a home directory, Linux copies files from /etc/skel. These files define the default shell environment for new users.
 difference of /etc/skel and /etc/login.defs:
-/etc/skel is a directory: template for a new user's home directory, controls files copied to new home directories, used when creating a user's home directory
+/etc/skel is a directory: template for a new user's home directory, controls files copied to new home directories,say, copy from /etc/skel/welcome.txt to /home/tester1/welcome.txt,
+used when creating a user's home directory
 /etc/login.defs: a configuration file, default settings for user/account management, controls things like UID ranges, password aging, etc. used when useradd / login-related account behavior
 
 
