@@ -48,7 +48,7 @@ $ chage -E 2027-01-15 user                           //set an expiry date for th
 $ passwd user                                        //change password for the user
 $ passwd                                             //change password for current user
 $ chage -M 30 user                                   //change password policy of the user, -M: maximum, make the expiration of the password 30 days
-
+$ chage -m 7 user                                    //wait 7 days before changing the password again
 
 
 
