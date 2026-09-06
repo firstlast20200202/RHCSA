@@ -2,8 +2,10 @@ user information is stored in /etc/passwd
 password information is stored in /etc/shadow in hashed values
 group information is stored in /etc/group
 when creating or editing users or groups, /etc/login.defs provides default configuration information such as UID or password policy 
-
 When a user is created with a home directory, Linux copies files from /etc/skel. These files define the default shell environment for new users.
+difference of /etc/skel and /etc/login.defs:
+/etc/skel is a directory: template for a new user's home directory, controls files copied to new home directories
+/etc/login.defs: a configuration file, default settings for user/account management, controls things like UID ranges, password aging, etc.
 
 
 SuperUser access:
