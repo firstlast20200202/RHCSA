@@ -3,6 +3,8 @@ password information is stored in /etc/shadow in hashed values
 group information is stored in /etc/group
 when creating or editing users or groups, /etc/login.defs provides default configuration information such as UID or password policy 
 
+When a user is created with a home directory, Linux copies files from /etc/skel. These files define the default shell environment for new users.
+
 
 SuperUser access:
 sudo permissions are defined in /etc/sudoers or /etc/sudoers.d/*
