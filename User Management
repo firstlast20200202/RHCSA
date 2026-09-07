@@ -79,4 +79,6 @@ $ sudo sed -i 's/^PASS_MIN_DAYS.*/PASS_MIN_DAYS   1/' /etc/login.defs
 $ sudo sed -i 's/^PASS_WARN_AGE.*/PASS_WARN_AGE   7/' /etc/login.defs
 $ grep 'PASS_MAX_DAYS\|PASS_MIN_DAYS\|PASS_WARN_AGE' /etc/login.defs
 
-
+Remove the unused service account backupsvc. Verify removal by checking that the account no longer exists in /etc/passwd.
+$ sudo userdel backupsvc
+$ grep backupsvc /etc/passwd
