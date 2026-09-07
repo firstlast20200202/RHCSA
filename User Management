@@ -57,9 +57,14 @@ $ chage -m 7 user                                    //wait 7 days before changi
 $ chage -W 5 user                                    //warn the user 5 days before the expiration
 4 chage -l user                                      //list password pilicies of the user
 
+Q & A:
+Create a service account called backupsvc with a restricted login shell that prevents interactive login. Verify the shell configuration in /etc/passwd.
+$ sudo useradd -s /sbin/nologin backupsvc
+$ grep backupsvc /etc/passwd
 
-
-
+Modify developer2's login shell to /bin/sh. Verify the change by checking /etc/passwd.
+$ sudo usermod -s /bin/sh developer2
+$ grep developer2 /etc/passwd
 
 
 
