@@ -1,1 +1,13 @@
+$ ls -l     //check permissions
+drwxr-xr-x 1 student students 122 Jan 13 12:00 mydirectory    
+d or -: directory or standard file
+rwx: owner permissions
+r-x: group permissions
+r-x: permissions of other people who are not in that group
+1: the number of hard links to that directory or file
+student: user owner
+students: group owner
+122: (bytes) size of the directory's filesystem metadata/entries, not the total size of its contents
+Jan 13 12:00: modification time
+mydirectory: name
 
