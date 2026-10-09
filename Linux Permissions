@@ -17,3 +17,5 @@ $ chmod -R 764 mydirectory    //-R: recursively
 $ chmod +x mufile
 $ chmod u=rwx myfile          //u: owner who owns the file, g: group, o: others, a: all
 $ chmod 1777 mydirectory      //1: can only be deleted or renamed by its original owner, 777: owner, group and others permissions
+
+$ chown dev:group1 /project/file1      //change the ownership of file to this user "dev" and group ownership to "group1"
