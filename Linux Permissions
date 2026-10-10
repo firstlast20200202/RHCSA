@@ -20,3 +20,7 @@ $ chmod 1777 mydirectory      //1: can only be deleted or renamed by its origina
 
 $ chown dev:group1 /project/file1      //change the ownership of file1 to user "dev" and group ownership to "group1"
 $ ls -l /project/                      //verify
+
+default permissions:
+file: 666
+directory: 777
