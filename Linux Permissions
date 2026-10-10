@@ -12,9 +12,9 @@ Jan 13 12:00: modification time
 mydirectory: name
 
 $ chmod 0764 myfile    //modify permissions
-r w x: 4 2 1, owner-rwx, group-rw, otheres-r
+r w x: 4 2 1, owner-rwx, group-rw, others-r
 $ chmod -R 764 mydirectory    //-R: recursively 
-$ chmod +x mufile
+$ chmod +x myfile
 $ chmod u=rwx myfile          //u: owner who owns the file, g: group, o: others, a: all, g+w: add w to group, o-rwx, remove rwx from others
 $ chmod 1777 mydirectory      //1: can only be deleted or renamed by its original owner, 777: owner, group and others permissions
 
