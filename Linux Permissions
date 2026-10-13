@@ -24,3 +24,4 @@ $ ls -l /project/                      //verify
 default permissions:
 file: 666
 directory: 777
+if run $ umask 022, it will reduce the permissions next time creating a file or directory, say 666-022 would be 644
